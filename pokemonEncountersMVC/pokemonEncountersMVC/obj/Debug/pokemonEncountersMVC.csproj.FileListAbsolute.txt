@@ -1,0 +1,200 @@
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\pokemonEncountersMVC.dll.config
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\pokemonEncountersMVC.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\pokemonEncountersMVC.pdb
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\Antlr3.Runtime.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\EntityFramework.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\Microsoft.Data.Edm.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\Microsoft.Data.OData.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\MongoDB.Bson.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\MongoDB.Driver.Core.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\MongoDB.Driver.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\Newtonsoft.Json.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Net.Http.Formatting.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Spatial.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Helpers.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Http.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Http.OData.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Http.Tracing.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Http.WebHost.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Mvc.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Optimization.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Providers.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Razor.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.WebPages.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\WebGrease.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\MongoDB.Bson.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\MongoDB.Driver.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\MongoDB.Driver.Core.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\EntityFramework.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\Newtonsoft.Json.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Net.Http.Formatting.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Helpers.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Http.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Http.WebHost.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Mvc.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Razor.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.WebPages.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Http.Tracing.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Http.OData.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\Microsoft.Data.Edm.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\Microsoft.Data.OData.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Spatial.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\de\System.Spatial.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\es\System.Spatial.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\fr\System.Spatial.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\it\System.Spatial.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\ja\System.Spatial.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\ko\System.Spatial.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\ru\System.Spatial.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\obj\Debug\pokemonEncountersMVC.csprojResolveAssemblyReference.cache
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\obj\Debug\pokemonEncountersMVC.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\obj\Debug\pokemonEncountersMVC.pdb
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\Microsoft.Web.XmlTransform.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Client.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Common.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.ContentModel.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Core.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Frameworks.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Packaging.Core.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Packaging.Core.Types.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Packaging.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Repositories.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.RuntimeModel.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Versioning.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Client.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Common.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.ContentModel.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Frameworks.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Packaging.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Packaging.Core.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Packaging.Core.Types.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Repositories.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.RuntimeModel.xml
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Versioning.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\pokemonEncountersMVC.dll.config
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\pokemonEncountersMVC.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\pokemonEncountersMVC.pdb
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\Antlr3.Runtime.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\EntityFramework.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\Microsoft.Data.Edm.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\Microsoft.Data.OData.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\Microsoft.Web.XmlTransform.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\MongoDB.Bson.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\MongoDB.Driver.Core.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\MongoDB.Driver.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\Newtonsoft.Json.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Client.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Common.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.ContentModel.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Core.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Frameworks.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Packaging.Core.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Packaging.Core.Types.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Packaging.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Repositories.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.RuntimeModel.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Versioning.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Net.Http.Formatting.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Spatial.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Helpers.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Http.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Http.OData.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Http.Tracing.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Http.WebHost.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Mvc.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Optimization.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Providers.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Razor.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.WebPages.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\WebGrease.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\MongoDB.Bson.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\MongoDB.Driver.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\MongoDB.Driver.Core.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\Newtonsoft.Json.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Client.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Common.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.ContentModel.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Frameworks.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Packaging.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Packaging.Core.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Packaging.Core.Types.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Repositories.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.RuntimeModel.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\NuGet.Versioning.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\EntityFramework.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Net.Http.Formatting.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Helpers.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Http.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Http.WebHost.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Mvc.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Razor.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.WebPages.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Http.Tracing.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Web.Http.OData.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\Microsoft.Data.Edm.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\Microsoft.Data.OData.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\System.Spatial.xml
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\de\System.Spatial.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\es\System.Spatial.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\fr\System.Spatial.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\it\System.Spatial.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\ja\System.Spatial.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\ko\System.Spatial.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\ru\System.Spatial.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\obj\Debug\pokemonEncountersMVC.csprojResolveAssemblyReference.cache
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\obj\Debug\pokemonEncountersMVC.dll
+C:\Users\Matthew\React\PokemonEncounters\pokemonEncountersMVC\pokemonEncountersMVC\obj\Debug\pokemonEncountersMVC.pdb
