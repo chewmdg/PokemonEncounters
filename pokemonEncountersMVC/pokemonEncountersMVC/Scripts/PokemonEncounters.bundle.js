@@ -34210,12 +34210,14 @@ var PokemonMain = function (_React$Component) {
 
         _this.state = {
             encounterPressed: false,
-            closePressed: false
+            closePressed: false,
+            shinyRate: 9,
+            shinyAllowed: true
         };
         return _this;
     }
 
-    //componentDidMount
+    //componentDidMount ../../api/pokemon?NamesOnly=true
 
 
     _createClass(PokemonMain, [{
@@ -34223,7 +34225,7 @@ var PokemonMain = function (_React$Component) {
         value: function componentDidMount() {
             var _this2 = this;
 
-            _jquery2.default.getJSON('../../api/pokemon?NamesOnly=true', function (data) {
+            _jquery2.default.getJSON('../../api/pokemon', function (data) {
                 _this2.pokemon = data;
                 console.log(_this2.pokemon);
             });
@@ -34245,6 +34247,16 @@ var PokemonMain = function (_React$Component) {
                 encounterPressed: false
             });
         }
+    }, {
+        key: 'onAllowShinyClick',
+        value: function onAllowShinyClick() {
+            if (shinyAllowed) {
+                this.setState({
+                    shinyAllowed: false
+                });
+            }
+            console.log(this.shinyAllowed);
+        }
 
         //handlers
 
@@ -34264,7 +34276,7 @@ var PokemonMain = function (_React$Component) {
                             return _react2.default.createElement(
                                 'li',
                                 null,
-                                x
+                                x.Name
                             );
                         })
                     ),
@@ -34290,8 +34302,129 @@ var PokemonMain = function (_React$Component) {
 
             return _react2.default.createElement(
                 'div',
-                { className: 'form-group' },
-                _react2.default.createElement('input', { type: 'button', className: 'btn btn-info', value: 'Random Encounter', onClick: function onClick() {
+                { className: 'col-md-2' },
+                _react2.default.createElement(
+                    'form',
+                    { className: 'form-group' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-group' },
+                        _react2.default.createElement(
+                            'label',
+                            { htmlFor: 'biomeSelect' },
+                            'Biome'
+                        ),
+                        _react2.default.createElement(
+                            'select',
+                            { className: 'form-control', id: 'biomeSelect' },
+                            _react2.default.createElement(
+                                'option',
+                                null,
+                                'Aquatic'
+                            ),
+                            _react2.default.createElement(
+                                'option',
+                                null,
+                                'Desert'
+                            ),
+                            _react2.default.createElement(
+                                'option',
+                                null,
+                                'Grassland'
+                            ),
+                            _react2.default.createElement(
+                                'option',
+                                null,
+                                'Tundra'
+                            ),
+                            _react2.default.createElement(
+                                'option',
+                                null,
+                                'Forest'
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-group' },
+                        _react2.default.createElement(
+                            'label',
+                            { htmlFor: 'timeSelect' },
+                            'Time'
+                        ),
+                        _react2.default.createElement(
+                            'select',
+                            { className: 'form-control', id: 'timeSelect', defaultValue: 'Day' },
+                            _react2.default.createElement(
+                                'option',
+                                null,
+                                'Morning'
+                            ),
+                            _react2.default.createElement(
+                                'option',
+                                null,
+                                'Day'
+                            ),
+                            _react2.default.createElement(
+                                'option',
+                                null,
+                                'Night'
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-check form-check-inline' },
+                        _react2.default.createElement(
+                            'label',
+                            { className: 'form-check-label', htmlFor: 'allowExtinct' },
+                            'Allow Extinct',
+                            _react2.default.createElement('input', { className: 'form-check-input', type: 'checkbox', id: 'allowExtinct', value: 'option1' })
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-check form-check-inline' },
+                        _react2.default.createElement(
+                            'label',
+                            { className: 'form-check-label', htmlFor: 'allowMega' },
+                            'Allow Mega',
+                            _react2.default.createElement('input', { className: 'form-check-input', type: 'checkbox', id: 'allowMega', value: 'option2' })
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-check form-check-inline' },
+                        _react2.default.createElement(
+                            'label',
+                            { className: 'form-check-label', htmlFor: 'allowShiny' },
+                            'Allow Shiny',
+                            _react2.default.createElement('input', { className: 'form-check-input', type: 'checkbox', id: 'allowShiny', onClick: function onClick() {
+                                    return _this4.onAllowShinyClick();
+                                }, defaultChecked: 'checked', value: 'option3' })
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-group' },
+                        _react2.default.createElement(
+                            'label',
+                            { htmlFor: 'shinyRate' },
+                            'Shiny Chance'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'input-group' },
+                            _react2.default.createElement('input', { type: 'number', className: 'form-control', disabled: !this.state.shinyAllowed, min: '0', max: '100', id: 'shinyRate', placeholder: 'Shiny Chance', defaultValue: this.state.shinyRate }),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'input-group-addon' },
+                                '%'
+                            )
+                        )
+                    )
+                ),
+                _react2.default.createElement('input', { type: 'button', className: 'btn btn-info', value: 'Encounter Now', onClick: function onClick() {
                         return _this4.onEncounterButtonClick();
                     } }),
                 _react2.default.createElement('br', null),

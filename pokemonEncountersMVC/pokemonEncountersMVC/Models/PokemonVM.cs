@@ -25,7 +25,7 @@ namespace pokemonEncountersMVC.Models
         public List<PokemonVM> getLstPokemon()
         {
             List<PokemonVM> lstOfPokemon = new List<PokemonVM>();
-            lstOfPokemon = mongoConnect().Find(x => x.PrimaryType == "Fire").ToList<PokemonVM>();
+            lstOfPokemon = mongoConnect().Find(x => x.Name != null).ToList<PokemonVM>();  //lstOfPokemon = mongoConnect().Find(x => x.PrimaryType == "Fire").ToList<PokemonVM>();
             return lstOfPokemon;
         }
 
@@ -36,15 +36,11 @@ namespace pokemonEncountersMVC.Models
             pokemonNames = (from n in mongoConnect().AsQueryable()
                             where n.PrimaryType == "Dragon"
                             select n.Name).ToList();
-                
-              
-
-           
-            
-                
+     
             return pokemonNames;
         }
 
+        //Mongo connect
         private IMongoCollection<PokemonVM> mongoConnect()
         {
             var client = new MongoClient();

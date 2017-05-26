@@ -20,7 +20,6 @@ namespace pokemonEncountersMVC.Controllers
         public List<string> get (bool NamesOnly)
         {
             PokemonVM pokemon = new PokemonVM();
-
             return pokemon.getLstPokemonName();
         }
     }
