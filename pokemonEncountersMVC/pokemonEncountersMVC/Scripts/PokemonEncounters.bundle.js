@@ -34212,7 +34212,8 @@ var PokemonMain = function (_React$Component) {
             encounterPressed: false,
             closePressed: false,
             shinyRate: 9,
-            shinyAllowed: true
+            shinyAllowed: true,
+            encounterToRender: false
         };
         return _this;
     }
@@ -34225,20 +34226,41 @@ var PokemonMain = function (_React$Component) {
         value: function componentDidMount() {
             var _this2 = this;
 
-            _jquery2.default.getJSON('../../api/pokemon', function (data) {
+            _jquery2.default.getJSON('../../api/Pokemon', function (data) {
                 _this2.pokemon = data;
                 console.log(_this2.pokemon);
             });
         }
+
+        // generateEncounter() {
+        //     $.getJSON('../../api/Pokemon', JSON.stringify(this.params), (data) => {
+        //         this.generatedEncounter = data;  
+        //         console.log(this.pokemon);
+        //     })
+        // }
 
         //functions onClicks
 
     }, {
         key: 'onEncounterButtonClick',
         value: function onEncounterButtonClick() {
-            this.setState({
-                encounterPressed: true
+            var _this3 = this;
+
+            this.params = {
+                Biome: this.state.Biome,
+                Time: this.state.Time
+            };
+            console.log(this.params);
+
+            _jquery2.default.getJSON('../../api/Pokemon', this.params, function (data) {
+
+                _this3.setState({
+                    generatedEncounter: data
+                });
             });
+            console.log("Generated Encounter:");
+            console.log(this.state.generatedEncounter);
+            console.log("Encounter to render");
         }
     }, {
         key: 'onCloseButtonClick',
@@ -34250,47 +34272,24 @@ var PokemonMain = function (_React$Component) {
     }, {
         key: 'onAllowShinyClick',
         value: function onAllowShinyClick() {
-            if (shinyAllowed) {
-                this.setState({
-                    shinyAllowed: false
-                });
-            }
-            console.log(this.shinyAllowed);
+            this.setState({ shinyAllowed: !this.state.shinyAllowed });
         }
 
-        //handlers
+        //on Change 
 
     }, {
-        key: 'handleEncounterButtonClick',
-        value: function handleEncounterButtonClick() {
-            var _this3 = this;
-
-            if (this.state.encounterPressed) {
-                return _react2.default.createElement(
-                    'div',
-                    { className: 'form-group' },
-                    _react2.default.createElement(
-                        'ol',
-                        null,
-                        this.pokemon.map(function (x) {
-                            return _react2.default.createElement(
-                                'li',
-                                null,
-                                x.Name
-                            );
-                        })
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'form-group' },
-                        _react2.default.createElement('input', { type: 'button', className: 'btn btn-info', value: 'Close', onClick: function onClick() {
-                                return _this3.onCloseButtonClick();
-                            } })
-                    )
-                );
-            } else {
-                return null;
-            }
+        key: 'onChangeBiome',
+        value: function onChangeBiome(e) {
+            this.setState({
+                Biome: e.target.value
+            });
+        }
+    }, {
+        key: 'onChangeTime',
+        value: function onChangeTime(e) {
+            this.setState({
+                Time: e.target.value
+            });
         }
 
         //Page Render
@@ -34308,7 +34307,7 @@ var PokemonMain = function (_React$Component) {
                     { className: 'form-group' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'form-group' },
+                        null,
                         _react2.default.createElement(
                             'label',
                             { htmlFor: 'biomeSelect' },
@@ -34316,7 +34315,9 @@ var PokemonMain = function (_React$Component) {
                         ),
                         _react2.default.createElement(
                             'select',
-                            { className: 'form-control', id: 'biomeSelect' },
+                            { className: 'form-control', id: 'biomeSelect', onChange: function onChange(e) {
+                                    return _this4.onChangeBiome(e);
+                                } },
                             _react2.default.createElement(
                                 'option',
                                 null,
@@ -34341,6 +34342,11 @@ var PokemonMain = function (_React$Component) {
                                 'option',
                                 null,
                                 'Forest'
+                            ),
+                            _react2.default.createElement(
+                                'option',
+                                null,
+                                'Ice'
                             )
                         )
                     ),
@@ -34354,7 +34360,9 @@ var PokemonMain = function (_React$Component) {
                         ),
                         _react2.default.createElement(
                             'select',
-                            { className: 'form-control', id: 'timeSelect', defaultValue: 'Day' },
+                            { className: 'form-control', id: 'timeSelect', defaultValue: 'Day', onChange: function onChange(e) {
+                                    return _this4.onChangeTime(e);
+                                } },
                             _react2.default.createElement(
                                 'option',
                                 null,
@@ -34428,12 +34436,57 @@ var PokemonMain = function (_React$Component) {
                         return _this4.onEncounterButtonClick();
                     } }),
                 _react2.default.createElement('br', null),
-                this.handleEncounterButtonClick()
+                _react2.default.createElement(EncounterList, { generatedEncounter: this.state.generatedEncounter })
             );
         }
     }]);
 
     return PokemonMain;
+}(_react2.default.Component);
+
+var EncounterList = function (_React$Component2) {
+    _inherits(EncounterList, _React$Component2);
+
+    function EncounterList() {
+        _classCallCheck(this, EncounterList);
+
+        return _possibleConstructorReturn(this, (EncounterList.__proto__ || Object.getPrototypeOf(EncounterList)).apply(this, arguments));
+    }
+
+    _createClass(EncounterList, [{
+        key: 'render',
+        value: function render() {
+            var _this6 = this;
+
+            if (this.props.generatedEncounter) {
+                return _react2.default.createElement(
+                    'div',
+                    { className: 'form-group' },
+                    _react2.default.createElement(
+                        'ol',
+                        null,
+                        this.props.generatedEncounter.map(function (x) {
+                            return _react2.default.createElement(
+                                'li',
+                                { key: x._id },
+                                x.Name
+                            );
+                        })
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-group' },
+                        _react2.default.createElement('input', { type: 'button', className: 'btn btn-info', value: 'Close', onClick: function onClick() {
+                                return _this6.onCloseButtonClick();
+                            } })
+                    )
+                );
+            }
+            return null;
+        }
+    }]);
+
+    return EncounterList;
 }(_react2.default.Component);
 
 _reactDom2.default.render(_react2.default.createElement(PokemonMain, null), document.getElementById("app_start"));

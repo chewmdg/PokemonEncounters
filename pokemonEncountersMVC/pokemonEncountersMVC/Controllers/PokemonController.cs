@@ -10,7 +10,7 @@ namespace pokemonEncountersMVC.Controllers
 {
     public class PokemonController : ApiController
     {
-        // GET api/values
+        //GET api/values
         public List<PokemonVM> get()
         {
             PokemonVM pokemon = new PokemonVM();
@@ -22,5 +22,17 @@ namespace pokemonEncountersMVC.Controllers
             PokemonVM pokemon = new PokemonVM();
             return pokemon.getLstPokemonName();
         }
+
+        public List<PokemonVM> get([FromUri]PokemonParams parameters)
+        {
+            PokemonVM pokemon = new PokemonVM();
+            return pokemon.getEncounterPokemon(parameters);
+        }
+
+        //public List<PokemonVM> get ([FromUri]PokemonParams parameters)
+        //{
+        //    PokemonVM pokemon = new PokemonVM();
+        //    return pokemon.getEncounterPokemon(parameters);
+        //}
     }
 }
