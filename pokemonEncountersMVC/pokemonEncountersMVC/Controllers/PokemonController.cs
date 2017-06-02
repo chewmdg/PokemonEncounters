@@ -11,11 +11,11 @@ namespace pokemonEncountersMVC.Controllers
     public class PokemonController : ApiController
     {
         //GET api/values
-        public List<PokemonVM> get()
-        {
-            PokemonVM pokemon = new PokemonVM();
-            return pokemon.getLstPokemon();
-        }
+        //public List<PokemonVM> get()
+        //{
+        //    PokemonVM pokemon = new PokemonVM();
+        //    return pokemon.getLstPokemon();
+        //}
 
         public List<string> get (bool NamesOnly)
         {

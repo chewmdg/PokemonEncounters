@@ -17,7 +17,7 @@ namespace pokemonEncountersMVC.Models
 
     public class PokemonParams
     {
-        public string Biome { get; set; }
+        public string Type { get; set; }
         public string Time { get; set; }
     }
     public class PokemonVM
@@ -31,7 +31,7 @@ namespace pokemonEncountersMVC.Models
         public List<PokemonVM> getLstPokemon()
         {
             List<PokemonVM> lstOfPokemon = new List<PokemonVM>();
-            lstOfPokemon = mongoConnect().Find(x => x.Name != null).ToList<PokemonVM>();  //lstOfPokemon = mongoConnect().Find(x => x.PrimaryType == "Fire").ToList<PokemonVM>();
+            lstOfPokemon = mongoConnect().Find(x => x._id != null).ToList<PokemonVM>();  //lstOfPokemon = mongoConnect().Find(x => x.PrimaryType == "Fire").ToList<PokemonVM>();
             return lstOfPokemon;
         }
 
@@ -56,7 +56,7 @@ namespace pokemonEncountersMVC.Models
         public List<PokemonVM> getEncounterPokemon(PokemonParams parameters)
         {
             List<PokemonVM> lstOfPokemon = new List<PokemonVM>();
-            lstOfPokemon = mongoConnect().Find(x => x.PrimaryType == parameters.Biome || x.SecondaryType == parameters.Biome).ToList<PokemonVM>();
+            lstOfPokemon = parameters.Type != null ? mongoConnect().Find(x => x.PrimaryType == parameters.Type || x.SecondaryType == parameters.Type).ToList<PokemonVM>() : mongoConnect().Find(x => x._id != null).ToList<PokemonVM>();
             return lstOfPokemon;
         }
 
