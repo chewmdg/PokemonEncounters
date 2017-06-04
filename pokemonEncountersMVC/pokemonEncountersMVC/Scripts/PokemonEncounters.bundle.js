@@ -44216,12 +44216,26 @@ var PokemonMain = function (_React$Component) {
         var _this = _possibleConstructorReturn(this, (PokemonMain.__proto__ || Object.getPrototypeOf(PokemonMain)).call(this));
 
         _this.state = {
-            encounterPressed: false,
-            closePressed: false,
-            shinyRate: 9,
+            numberEncountersValue: 0,
+            extinctAllowed: false,
+            megaAllowed: false,
+            alolanAllowed: false,
+            legendaryAllowed: false,
+            mythicalAllowed: false,
             shinyAllowed: true,
-            encounterToRender: false,
-            temperatureValue: 0
+            shinyRate: 5,
+            temperatureValue: 0,
+            hazardValue: 0,
+            altitudeValue: 0,
+            hallowValue: 0,
+            lushValue: 0,
+            brightValue: 0,
+            waterValue: 0,
+            remoteValue: 0,
+            toxicityValue: 0,
+            uniqueValue: 0,
+            electromagneticValue: 0,
+            metallicValue: 0
         };
         return _this;
     }
@@ -44255,8 +44269,26 @@ var PokemonMain = function (_React$Component) {
             var _this3 = this;
 
             this.params = {
-                Type: this.state.Type,
-                Time: this.state.Time
+                NumberEncounters: this.state.numberEncountersValue,
+                ExtinctAllowed: this.state.extinctAllowed,
+                MegaAllowed: this.state.megaAllowed,
+                AlolanAllowed: this.state.alolanAllowed,
+                LegendaryAllowed: this.state.legendaryAllowed,
+                MythicalAllowed: this.state.mythicalAllowed,
+                ShinyAllowed: this.state.shinyAllowed,
+                ShinyRate: this.state.shinyRate,
+                Temperature: this.state.temperatureValue,
+                Hazard: this.state.hazardValue,
+                Altitude: this.state.altitudeValue,
+                Hallow: this.state.hallowValue,
+                Lush: this.state.lushValue,
+                Bright: this.state.brightValue,
+                Water: this.state.waterValue,
+                Remote: this.state.remoteValue,
+                Toxicity: this.state.toxicityValue,
+                Unique: this.state.uniqueValue,
+                Electromagnetism: this.state.electromagneticValue,
+                Metallic: this.state.metallicValue
             };
             console.log(this.params);
 
@@ -44267,11 +44299,41 @@ var PokemonMain = function (_React$Component) {
                 });
             });
         }
+        //on click
+
     }, {
-        key: 'onCloseButtonClick',
-        value: function onCloseButtonClick() {
+        key: 'onAllowExtinctClick',
+        value: function onAllowExtinctClick() {
             this.setState({
-                encounterPressed: false
+                extinctAllowed: !this.state.extinctAllowed
+            });
+        }
+    }, {
+        key: 'onAllowMegaClick',
+        value: function onAllowMegaClick() {
+            this.setState({
+                megaAllowed: !this.state.megaAllowed
+            });
+        }
+    }, {
+        key: 'onAllowAlolanClick',
+        value: function onAllowAlolanClick() {
+            this.setState({
+                alolanAllowed: !this.state.alolanAllowed
+            });
+        }
+    }, {
+        key: 'onAllowLegendaryClick',
+        value: function onAllowLegendaryClick() {
+            this.setState({
+                legendaryAllowed: !this.state.legendaryAllowed
+            });
+        }
+    }, {
+        key: 'onAllowMythicalClick',
+        value: function onAllowMythicalClick() {
+            this.setState({
+                mythicalAllowed: !this.state.mythicalAllowed
             });
         }
     }, {
@@ -44285,25 +44347,116 @@ var PokemonMain = function (_React$Component) {
         //on Change 
 
     }, {
-        key: 'onChangeType',
-        value: function onChangeType(e) {
+        key: 'onChangeEncounter',
+        value: function onChangeEncounter(e) {
             this.setState({
-                Type: e.target.value
+                numberEncountersValue: parseInt(e.target.value)
             });
         }
     }, {
-        key: 'onChangeTime',
-        value: function onChangeTime(e) {
+        key: 'onChangeShiny',
+        value: function onChangeShiny(e) {
             this.setState({
-                Time: e.target.value
+                shinyRate: parseInt(e.target.value)
             });
         }
+
+        //on change sliders
+
     }, {
         key: 'onTemperatureChange',
         value: function onTemperatureChange(e, value) {
             console.log(e);
             this.setState({
                 temperatureValue: value
+            });
+        }
+    }, {
+        key: 'onHazardChange',
+        value: function onHazardChange(e, value) {
+            console.log(e);
+            this.setState({
+                hazardValue: value
+            });
+        }
+    }, {
+        key: 'onAltitudeChange',
+        value: function onAltitudeChange(e, value) {
+            console.log(e);
+            this.setState({
+                altitudeValue: value
+            });
+        }
+    }, {
+        key: 'onhallowChange',
+        value: function onhallowChange(e, value) {
+            console.log(e);
+            this.setState({
+                hallowValue: value
+            });
+        }
+    }, {
+        key: 'onLushChange',
+        value: function onLushChange(e, value) {
+            console.log(e);
+            this.setState({
+                lushValue: value
+            });
+        }
+    }, {
+        key: 'onBrightChange',
+        value: function onBrightChange(e, value) {
+            console.log(e);
+            this.setState({
+                brightValue: value
+            });
+        }
+    }, {
+        key: 'onWaterChange',
+        value: function onWaterChange(e, value) {
+            console.log(e);
+            this.setState({
+                waterValue: value
+            });
+        }
+    }, {
+        key: 'onRemoteChange',
+        value: function onRemoteChange(e, value) {
+            console.log(e);
+            this.setState({
+                remoteValue: value
+            });
+        }
+    }, {
+        key: 'onToxicityChange',
+        value: function onToxicityChange(e, value) {
+            console.log(e);
+            this.setState({
+                toxicityValue: value
+            });
+        }
+    }, {
+        key: 'onUniqueChange',
+        value: function onUniqueChange(e, value) {
+            console.log(e);
+            this.setState({
+                uniqueValue: value
+            });
+        }
+    }, {
+        key: 'onElectromagneticChange',
+        value: function onElectromagneticChange(e, value) {
+            console.log(e);
+            this.setState({
+                electromagneticValue: value
+            });
+        }
+    }, {
+        key: 'onMetallicChange',
+        value: function onMetallicChange(e, value) {
+            console.log(e);
+            this.setState({
+                metallicValue: value
             });
         }
 
@@ -44325,103 +44478,103 @@ var PokemonMain = function (_React$Component) {
                         null,
                         _react2.default.createElement(
                             'label',
-                            { htmlFor: 'typeSelect' },
-                            'Type'
+                            { htmlFor: 'numberEncounters' },
+                            'Number of Encounters'
+                        ),
+                        _react2.default.createElement('input', { type: 'number', id: 'numberEncounters', onChange: function onChange(e) {
+                                return _this4.onChangeEncounter(e);
+                            }, className: 'form-control', value: this.state.numberEncountersValue, placeholder: 'Text input' })
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-check form-check-inline' },
+                        _react2.default.createElement(
+                            'label',
+                            { className: 'form-check-label', htmlFor: 'allowExtinct' },
+                            'Allow Extinct',
+                            _react2.default.createElement('input', { className: 'form-check-input', type: 'checkbox', id: 'allowExtinct', onClick: function onClick() {
+                                    return _this4.onAllowExtinctClick();
+                                }, value: 'option1' })
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-check form-check-inline' },
+                        _react2.default.createElement(
+                            'label',
+                            { className: 'form-check-label', htmlFor: 'allowMega' },
+                            'Allow Mega',
+                            _react2.default.createElement('input', { className: 'form-check-input', type: 'checkbox', id: 'allowMega', onClick: function onClick() {
+                                    return _this4.onAllowMegaClick();
+                                }, value: 'option2' })
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-check form-check-inline' },
+                        _react2.default.createElement(
+                            'label',
+                            { className: 'form-check-label', htmlFor: 'allowAlolan' },
+                            'Allow Alolan',
+                            _react2.default.createElement('input', { className: 'form-check-input', type: 'checkbox', id: 'allowAlola', onClick: function onClick() {
+                                    return _this4.onAllowAlolanClick();
+                                }, value: 'option2' })
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-check form-check-inline' },
+                        _react2.default.createElement(
+                            'label',
+                            { className: 'form-check-label', htmlFor: 'allowLegendary' },
+                            'Allow Legendary',
+                            _react2.default.createElement('input', { className: 'form-check-input', type: 'checkbox', id: 'allowLegendary', onClick: function onClick() {
+                                    return _this4.onAllowLegendaryClick();
+                                }, value: 'option2' })
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-check form-check-inline' },
+                        _react2.default.createElement(
+                            'label',
+                            { className: 'form-check-label', htmlFor: 'allowMythical' },
+                            'Allow Mythical',
+                            _react2.default.createElement('input', { className: 'form-check-input', type: 'checkbox', id: 'allowMythical', onClick: function onClick() {
+                                    return _this4.onAllowMythicalClick();
+                                }, value: 'option2' })
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-check form-check-inline' },
+                        _react2.default.createElement(
+                            'label',
+                            { className: 'form-check-label', htmlFor: 'allowShiny' },
+                            'Allow Shiny',
+                            _react2.default.createElement('input', { className: 'form-check-input', type: 'checkbox', id: 'allowShiny', onClick: function onClick() {
+                                    return _this4.onAllowShinyClick();
+                                }, defaultChecked: 'checked', value: 'option3' })
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-group' },
+                        _react2.default.createElement(
+                            'label',
+                            { htmlFor: 'shinyRate' },
+                            'Shiny Chance'
                         ),
                         _react2.default.createElement(
-                            'select',
-                            { className: 'form-control', id: 'typeSelect', onChange: function onChange(e) {
-                                    return _this4.onChangeType(e);
-                                } },
+                            'div',
+                            { className: 'input-group' },
+                            _react2.default.createElement('input', { type: 'number', className: 'form-control', disabled: !this.state.shinyAllowed, min: '0', max: '100', id: 'shinyRate', onChange: function onChange(e) {
+                                    return _this4.onChangeShiny(e);
+                                }, placeholder: 'Shiny Chance', defaultValue: this.state.shinyRate }),
                             _react2.default.createElement(
-                                'option',
-                                null,
-                                'Water'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Fire'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Grass'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Ice'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Electric'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Ground'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Flying'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Rock'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Normal'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Fighting'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Bug'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Ghost'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Fairy'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Poison'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Dragon'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Psychic'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Steel'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Dark'
+                                'div',
+                                { className: 'input-group-addon' },
+                                '%'
                             )
                         )
                     ),
@@ -44460,61 +44613,29 @@ var PokemonMain = function (_React$Component) {
                         { className: 'form-group' },
                         _react2.default.createElement(
                             'label',
-                            { htmlFor: 'timeSelect' },
-                            'Time'
+                            { htmlFor: 'hazard' },
+                            'Hazardous Level'
                         ),
                         _react2.default.createElement(
-                            'select',
-                            { className: 'form-control', id: 'timeSelect', defaultValue: 'Day', onChange: function onChange(e) {
-                                    return _this4.onChangeTime(e);
-                                } },
+                            _MuiThemeProvider2.default,
+                            null,
                             _react2.default.createElement(
-                                'option',
+                                'div',
                                 null,
-                                'Morning'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Day'
-                            ),
-                            _react2.default.createElement(
-                                'option',
-                                null,
-                                'Night'
+                                _react2.default.createElement(_Slider2.default, { id: 'hazard',
+                                    min: -100,
+                                    max: 100,
+                                    step: 1,
+                                    value: this.state.hazardValue,
+                                    onChange: function onChange(e, value) {
+                                        return _this4.onHazardChange(e, value);
+                                    } }),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    this.state.hazardValue
+                                )
                             )
-                        )
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'form-check form-check-inline' },
-                        _react2.default.createElement(
-                            'label',
-                            { className: 'form-check-label', htmlFor: 'allowExtinct' },
-                            'Allow Extinct',
-                            _react2.default.createElement('input', { className: 'form-check-input', type: 'checkbox', id: 'allowExtinct', value: 'option1' })
-                        )
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'form-check form-check-inline' },
-                        _react2.default.createElement(
-                            'label',
-                            { className: 'form-check-label', htmlFor: 'allowMega' },
-                            'Allow Mega',
-                            _react2.default.createElement('input', { className: 'form-check-input', type: 'checkbox', id: 'allowMega', value: 'option2' })
-                        )
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'form-check form-check-inline' },
-                        _react2.default.createElement(
-                            'label',
-                            { className: 'form-check-label', htmlFor: 'allowShiny' },
-                            'Allow Shiny',
-                            _react2.default.createElement('input', { className: 'form-check-input', type: 'checkbox', id: 'allowShiny', onClick: function onClick() {
-                                    return _this4.onAllowShinyClick();
-                                }, defaultChecked: 'checked', value: 'option3' })
                         )
                     ),
                     _react2.default.createElement(
@@ -44522,17 +44643,298 @@ var PokemonMain = function (_React$Component) {
                         { className: 'form-group' },
                         _react2.default.createElement(
                             'label',
-                            { htmlFor: 'shinyRate' },
-                            'Shiny Chance'
+                            { htmlFor: 'altitude' },
+                            'Altitude'
                         ),
                         _react2.default.createElement(
-                            'div',
-                            { className: 'input-group' },
-                            _react2.default.createElement('input', { type: 'number', className: 'form-control', disabled: !this.state.shinyAllowed, min: '0', max: '100', id: 'shinyRate', placeholder: 'Shiny Chance', defaultValue: this.state.shinyRate }),
+                            _MuiThemeProvider2.default,
+                            null,
                             _react2.default.createElement(
                                 'div',
-                                { className: 'input-group-addon' },
-                                '%'
+                                null,
+                                _react2.default.createElement(_Slider2.default, { id: 'altitude',
+                                    min: -100,
+                                    max: 100,
+                                    step: 1,
+                                    value: this.state.altitudeValue,
+                                    onChange: function onChange(e, value) {
+                                        return _this4.onAltitudeChange(e, value);
+                                    } }),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    this.state.altitudeValue
+                                )
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-group' },
+                        _react2.default.createElement(
+                            'label',
+                            { htmlFor: 'temperature' },
+                            'Hallowedness'
+                        ),
+                        _react2.default.createElement(
+                            _MuiThemeProvider2.default,
+                            null,
+                            _react2.default.createElement(
+                                'div',
+                                null,
+                                _react2.default.createElement(_Slider2.default, { id: 'hallow',
+                                    min: -100,
+                                    max: 100,
+                                    step: 1,
+                                    value: this.state.hallowValue,
+                                    onChange: function onChange(e, value) {
+                                        return _this4.onhallowChange(e, value);
+                                    } }),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    this.state.hallowValue
+                                )
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-group' },
+                        _react2.default.createElement(
+                            'label',
+                            { htmlFor: 'temperature' },
+                            'Lushiousness'
+                        ),
+                        _react2.default.createElement(
+                            _MuiThemeProvider2.default,
+                            null,
+                            _react2.default.createElement(
+                                'div',
+                                null,
+                                _react2.default.createElement(_Slider2.default, { id: 'lush',
+                                    min: -100,
+                                    max: 100,
+                                    step: 1,
+                                    value: this.state.lushValue,
+                                    onChange: function onChange(e, value) {
+                                        return _this4.onLushChange(e, value);
+                                    } }),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    this.state.lushValue
+                                )
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-group' },
+                        _react2.default.createElement(
+                            'label',
+                            { htmlFor: 'bright' },
+                            'Brightness'
+                        ),
+                        _react2.default.createElement(
+                            _MuiThemeProvider2.default,
+                            null,
+                            _react2.default.createElement(
+                                'div',
+                                null,
+                                _react2.default.createElement(_Slider2.default, { id: 'bright',
+                                    min: -100,
+                                    max: 100,
+                                    step: 1,
+                                    value: this.state.brightValue,
+                                    onChange: function onChange(e, value) {
+                                        return _this4.onBrightChange(e, value);
+                                    } }),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    this.state.temperatureValue
+                                )
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-group' },
+                        _react2.default.createElement(
+                            'label',
+                            { htmlFor: 'water' },
+                            'Waterness'
+                        ),
+                        _react2.default.createElement(
+                            _MuiThemeProvider2.default,
+                            null,
+                            _react2.default.createElement(
+                                'div',
+                                null,
+                                _react2.default.createElement(_Slider2.default, { id: 'water',
+                                    min: 0,
+                                    max: 100,
+                                    step: 1,
+                                    value: this.state.waterValue,
+                                    onChange: function onChange(e, value) {
+                                        return _this4.onWaterChange(e, value);
+                                    } }),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    this.state.waterValue
+                                )
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-group' },
+                        _react2.default.createElement(
+                            'label',
+                            { htmlFor: 'remote' },
+                            'Remoteness'
+                        ),
+                        _react2.default.createElement(
+                            _MuiThemeProvider2.default,
+                            null,
+                            _react2.default.createElement(
+                                'div',
+                                null,
+                                _react2.default.createElement(_Slider2.default, { id: 'remote',
+                                    min: 0,
+                                    max: 100,
+                                    step: 1,
+                                    value: this.state.remoteValue,
+                                    onChange: function onChange(e, value) {
+                                        return _this4.onRemoteChange(e, value);
+                                    } }),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    this.state.remoteValue
+                                )
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-group' },
+                        _react2.default.createElement(
+                            'label',
+                            { htmlFor: 'toxicity' },
+                            'Toxicity'
+                        ),
+                        _react2.default.createElement(
+                            _MuiThemeProvider2.default,
+                            null,
+                            _react2.default.createElement(
+                                'div',
+                                null,
+                                _react2.default.createElement(_Slider2.default, { id: 'toxicity',
+                                    min: 0,
+                                    max: 100,
+                                    step: 1,
+                                    value: this.state.toxicityValue,
+                                    onChange: function onChange(e, value) {
+                                        return _this4.onToxicityChange(e, value);
+                                    } }),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    this.state.toxicityValue
+                                )
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-group' },
+                        _react2.default.createElement(
+                            'label',
+                            { htmlFor: 'unique' },
+                            'Uniqueness'
+                        ),
+                        _react2.default.createElement(
+                            _MuiThemeProvider2.default,
+                            null,
+                            _react2.default.createElement(
+                                'div',
+                                null,
+                                _react2.default.createElement(_Slider2.default, { id: 'unique',
+                                    min: 0,
+                                    max: 100,
+                                    step: 1,
+                                    value: this.state.uniqueValue,
+                                    onChange: function onChange(e, value) {
+                                        return _this4.onUniqueChange(e, value);
+                                    } }),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    this.state.uniqueValue
+                                )
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-group' },
+                        _react2.default.createElement(
+                            'label',
+                            { htmlFor: 'electromagnetic' },
+                            'Electromagnetism'
+                        ),
+                        _react2.default.createElement(
+                            _MuiThemeProvider2.default,
+                            null,
+                            _react2.default.createElement(
+                                'div',
+                                null,
+                                _react2.default.createElement(_Slider2.default, { id: 'electromagnetic',
+                                    min: 0,
+                                    max: 100,
+                                    step: 1,
+                                    value: this.state.electromagneticValue,
+                                    onChange: function onChange(e, value) {
+                                        return _this4.onElectromagneticChange(e, value);
+                                    } }),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    this.state.electromagneticValue
+                                )
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'form-group' },
+                        _react2.default.createElement(
+                            'label',
+                            { htmlFor: 'metallic' },
+                            'Metallicness'
+                        ),
+                        _react2.default.createElement(
+                            _MuiThemeProvider2.default,
+                            null,
+                            _react2.default.createElement(
+                                'div',
+                                null,
+                                _react2.default.createElement(_Slider2.default, { id: 'metallic',
+                                    min: 0,
+                                    max: 100,
+                                    step: 1,
+                                    value: this.state.metallicValue,
+                                    onChange: function onChange(e, value) {
+                                        return _this4.onMetallicChange(e, value);
+                                    } }),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    this.state.metallicValue
+                                )
                             )
                         )
                     )
@@ -44561,8 +44963,6 @@ var EncounterList = function (_React$Component2) {
     _createClass(EncounterList, [{
         key: 'render',
         value: function render() {
-            var _this6 = this;
-
             if (this.props.generatedEncounter) {
                 return _react2.default.createElement(
                     'div',
@@ -44585,9 +44985,7 @@ var EncounterList = function (_React$Component2) {
                     _react2.default.createElement(
                         'div',
                         { className: 'form-group' },
-                        _react2.default.createElement('input', { type: 'button', className: 'btn btn-info', value: 'Close', onClick: function onClick() {
-                                return _this6.onCloseButtonClick();
-                            } })
+                        _react2.default.createElement('input', { type: 'button', className: 'btn btn-info', value: 'Close' })
                     )
                 );
             }
