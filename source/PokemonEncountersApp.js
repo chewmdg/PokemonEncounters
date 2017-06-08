@@ -12,7 +12,7 @@ class PokemonMain extends React.Component {
     constructor() {
         super();
         this.state = {
-            numberEncountersValue: 0,
+            numberEncountersValue: 10,
             extinctAllowed: false,
             megaAllowed: false,
             alolanAllowed: false,
@@ -77,7 +77,7 @@ class PokemonMain extends React.Component {
         console.log(this.params);
 
         $.getJSON('../../api/Pokemon', this.params, (data) => {
-
+            //data.map((x,i)=>console.log(i));
             this.setState({
                 generatedEncounter: data,
             });
@@ -152,7 +152,7 @@ class PokemonMain extends React.Component {
             altitudeValue: value,
         })
     }
-    onhallowChange(e, value) {
+    onHallowChange(e, value) {
         console.log(e);
         this.setState({
             hallowValue: value,
@@ -254,7 +254,7 @@ class PokemonMain extends React.Component {
                         </div>
                     </div>
                     <div className="form-group">
-                        <label for="temperature">Temperature</label>
+                        <label for="temperature">Temperature: {this.state.temperatureValue}</label>
                         <MuiThemeProvider>
                             <div>
                                 <Slider id="temperature"
@@ -264,12 +264,11 @@ class PokemonMain extends React.Component {
                                     value={this.state.temperatureValue}
                                     onChange={(e, value) => this.onTemperatureChange(e, value)}>
                                 </Slider>
-                                <span>{this.state.temperatureValue}</span>
                             </div>
                         </MuiThemeProvider>
                     </div>
                     <div className="form-group">
-                        <label for="hazard">Hazardous Level</label>
+                        <label for="hazard">Hazardous Level: {this.state.hazardValue}</label>
                         <MuiThemeProvider>
                             <div>
                                 <Slider id="hazard"
@@ -279,12 +278,11 @@ class PokemonMain extends React.Component {
                                     value={this.state.hazardValue}
                                     onChange={(e, value) => this.onHazardChange(e, value)}>
                                 </Slider>
-                                <span>{this.state.hazardValue}</span>
                             </div>
                         </MuiThemeProvider>
                     </div>
                     <div className="form-group">
-                        <label for="altitude">Altitude</label>
+                        <label for="altitude">Altitude: {this.state.altitudeValue}</label>
                         <MuiThemeProvider>
                             <div>
                                 <Slider id="altitude"
@@ -294,12 +292,11 @@ class PokemonMain extends React.Component {
                                     value={this.state.altitudeValue}
                                     onChange={(e, value) => this.onAltitudeChange(e, value)}>
                                 </Slider>
-                                <span>{this.state.altitudeValue}</span>
                             </div>
                         </MuiThemeProvider>
                     </div>
                     <div className="form-group">
-                        <label for="temperature">Hallowedness</label>
+                        <label for="temperature">Hallowedness: {this.state.hallowValue}</label>
                         <MuiThemeProvider>
                             <div>
                                 <Slider id="hallow"
@@ -307,14 +304,13 @@ class PokemonMain extends React.Component {
                                     max={100}
                                     step={1}
                                     value={this.state.hallowValue}
-                                    onChange={(e, value) => this.onhallowChange(e, value)}>
+                                    onChange={(e, value) => this.onHallowChange(e, value)}>
                                 </Slider>
-                                <span>{this.state.hallowValue}</span>
                             </div>
                         </MuiThemeProvider>
                     </div>
                     <div className="form-group">
-                        <label for="temperature">Lushiousness</label>
+                        <label for="temperature">Lushness: {this.state.lushValue}</label>
                         <MuiThemeProvider>
                             <div>
                                 <Slider id="lush"
@@ -324,12 +320,11 @@ class PokemonMain extends React.Component {
                                     value={this.state.lushValue}
                                     onChange={(e, value) => this.onLushChange(e, value)}>
                                 </Slider>
-                                <span>{this.state.lushValue}</span>
                             </div>
                         </MuiThemeProvider>
                     </div>
                     <div className="form-group">
-                        <label for="bright">Brightness</label>
+                        <label for="bright">Brightness: {this.state.brightValue}</label>
                         <MuiThemeProvider>
                             <div>
                                 <Slider id="bright"
@@ -339,12 +334,11 @@ class PokemonMain extends React.Component {
                                     value={this.state.brightValue}
                                     onChange={(e, value) => this.onBrightChange(e, value)}>
                                 </Slider>
-                                <span>{this.state.temperatureValue}</span>
                             </div>
                         </MuiThemeProvider>
                     </div>
                     <div className="form-group">
-                        <label for="water">Waterness</label>
+                        <label for="water">Aquatic: {this.state.waterValue}</label>
                         <MuiThemeProvider>
                             <div>
                                 <Slider id="water"
@@ -354,12 +348,11 @@ class PokemonMain extends React.Component {
                                     value={this.state.waterValue}
                                     onChange={(e, value) => this.onWaterChange(e, value)}>
                                 </Slider>
-                                <span>{this.state.waterValue}</span>
                             </div>
                         </MuiThemeProvider>
                     </div>
                     <div className="form-group">
-                        <label for="remote">Remoteness</label>
+                        <label for="remote">Remoteness: {this.state.remoteValue}</label>
                         <MuiThemeProvider>
                             <div>
                                 <Slider id="remote"
@@ -369,12 +362,11 @@ class PokemonMain extends React.Component {
                                     value={this.state.remoteValue}
                                     onChange={(e, value) => this.onRemoteChange(e, value)}>
                                 </Slider>
-                                <span>{this.state.remoteValue}</span>
                             </div>
                         </MuiThemeProvider>
                     </div>
                     <div className="form-group">
-                        <label for="toxicity">Toxicity</label>
+                        <label for="toxicity">Toxicity: {this.state.toxicityValue}</label>
                         <MuiThemeProvider>
                             <div>
                                 <Slider id="toxicity"
@@ -384,12 +376,11 @@ class PokemonMain extends React.Component {
                                     value={this.state.toxicityValue}
                                     onChange={(e, value) => this.onToxicityChange(e, value)}>
                                 </Slider>
-                                <span>{this.state.toxicityValue}</span>
                             </div>
                         </MuiThemeProvider>
                     </div>
                     <div className="form-group">
-                        <label for="unique">Uniqueness</label>
+                        <label for="unique">Tranquility: {this.state.uniqueValue}</label>
                         <MuiThemeProvider>
                             <div>
                                 <Slider id="unique"
@@ -399,12 +390,11 @@ class PokemonMain extends React.Component {
                                     value={this.state.uniqueValue}
                                     onChange={(e, value) => this.onUniqueChange(e, value)}>
                                 </Slider>
-                                <span>{this.state.uniqueValue}</span>
                             </div>
                         </MuiThemeProvider>
                     </div>
                     <div className="form-group">
-                        <label for="electromagnetic">Electromagnetism</label>
+                        <label for="electromagnetic">Electromagnetism: {this.state.electromagneticValue}</label>
                         <MuiThemeProvider>
                             <div>
                                 <Slider id="electromagnetic"
@@ -414,12 +404,11 @@ class PokemonMain extends React.Component {
                                     value={this.state.electromagneticValue}
                                     onChange={(e, value) => this.onElectromagneticChange(e, value)}>
                                 </Slider>
-                                <span>{this.state.electromagneticValue}</span>
                             </div>
                         </MuiThemeProvider>
                     </div>
                     <div className="form-group">
-                        <label for="metallic">Metallicness</label>
+                        <label for="metallic">Metallicness: {this.state.metallicValue}</label>
                         <MuiThemeProvider>
                             <div>
                                 <Slider id="metallic"
@@ -429,7 +418,6 @@ class PokemonMain extends React.Component {
                                     value={this.state.metallicValue}
                                     onChange={(e, value) => this.onMetallicChange(e, value)}>
                                 </Slider>
-                                <span>{this.state.metallicValue}</span>
                             </div>
                         </MuiThemeProvider>
                     </div>
@@ -456,7 +444,7 @@ class EncounterList extends React.Component {
             return (
                 <div className="form-group">
                     <ol>
-                        {this.props.generatedEncounter.map((x) => { return (<li key={x._id}>{x.Name}:{x.PrimaryType}:{x.SecondaryType}</li>) })}
+                        {this.props.generatedEncounter.map((x,i) => { return (<li key={i}>{x.Region?x.Region + " ":null}{x.Name}:{x.PrimaryType}:{x.SecondaryType}</li>) })}
                     </ol>
                     <div className="form-group">
                         <input type="button" className='btn btn-info' value="Close" />
